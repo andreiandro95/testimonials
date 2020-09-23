@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* testimonials */
+.testimonial-size{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../background-testimonials.jpeg') center/cover no-repeat fixed;
+    position: relative;
+}
+.client-testimonials{
+    padding-top: 7rem;
+    text-align: center;
+}
+.client{
+    color: rgb(255, 89, 0);
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+.testimonials{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.table-testimonials{
+    width: 50%;
+    height: 50%;
+    margin:4rem auto;
+    background-color: transparent;
+    border: 2px solid white;
+    position: relative;
+}
+.customer-test{
+    border-radius: 100%;
+    display: block;
+    width: 150px;
+    margin: -50px auto;
+}
+.customer-name{
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    color: white;
+    font-size: 1.7rem;
+}
+.star-rating{
+    color: rgb(255, 89, 0);
+    text-align: center;
+}
+.citat-customer{
+    color: white;
+    text-align: center;
+    margin: 2rem 0rem;
+}
+.last-quotes{
+    color: rgb(255, 89, 0);
+    font-size: 2rem;
+    display: block;
+    margin: 2rem auto;
+}
+.button-testimonial{
+    font-size: 2rem;
+    border: 5px solid rgb(255, 89, 0);
+    border-radius: 50%;
+    color: rgb(255, 89, 0);
+}
+.btn-left{
+    position: absolute;
+    bottom: 50%;
+    left: -5%;
+    transform: translateY(50%);
+}
+.btn-right{
+    position: absolute;
+    bottom: 50%;
+    right: -5%;
+    transform: translateY(50%);
+}
